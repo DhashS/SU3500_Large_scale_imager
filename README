@@ -1,0 +1,7 @@
+If you take the cooridnates of two opposite corners of the image and input
+them to `x1, x2, y1, y2`, and configure the `x_step` and `y_step` depending 
+on your zoom level (make a little bit of overlap per step to make the stitching
+programs job easier), and set `delay` to the integration time of the image, 
+and lastly set up image auto numbering and removal of all extra artefacts (scale
+bars and such) this script will take the full grid of images specified by those 
+parameters on the Hitachi SU3500.
